@@ -1,30 +1,25 @@
 package RunescapeNewGoal;
-
 public class NextGoal {
-
     String goalDesc;
     boolean goalAchieved;
 
-    public enum GoalType {
-        SKILLING,
-        QUESTING,
-        COMBAT,
-        DIARIES,
-        HUSTLING
-    }
-
-    public void checkGoal(){
-        if(goalAchieved){
-            System.out.println("This goal has been completed!");
-        }
-        else{
-            System.out.println("This goal has not been completed yet!");
-        }
-    }
-
-    public NextGoal(GoalType goalType, String goalDescription, boolean goalCompleted){
+    public NextGoal(String goalDescription, boolean goalDone) {
         goalDesc = goalDescription;
-        goalAchieved = goalCompleted;
+        goalAchieved = goalDone;
     }
 
+    public void goalComplete(){
+        System.out.println("Your current goal is: "+goalDesc+".");
+        if (goalAchieved) {
+            System.out.println("This goal has been achieved!");
+            System.out.println("Please move on to the next!");
+        }
+        else {
+            System.out.println("This goal has not been achieved yet!");
+        }
+    }
+
+    public void futureGoals(){
+        System.out.println("Your next goal, following the previous' completion is: "+goalDesc+".");
+    }
 }
