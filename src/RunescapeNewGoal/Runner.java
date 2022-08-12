@@ -1,17 +1,25 @@
 package RunescapeNewGoal;
 import java.util.Arrays;
+import java.util.Scanner;
 public class Runner {
+
+    Agility runAgility = new Agility();
     public static void main(String[] args){
-        String[] goalCategories = {"Skilling", "Questing", "Maxing", "Diaries", "Bossing", "Clue Scrolls"};
+        Scanner input = new Scanner(System.in);
 
-        NextGoal firstGoal = new NextGoal("99 Magic",false);
-        NextGoal secondGoal = new NextGoal("Ardougne Hard Diary",false);
-        NextGoal thirdGoal = new NextGoal("99 Thieving",false);
+        System.out.println("Ver: 0.1");
+        System.out.println("Welcome to Charlie's Runescape Goal Tracker & Calculator.");
+        System.out.println("Standby for updates and new versions with updated features and methods.");
 
-        firstGoal.goalComplete();
-        secondGoal.futureGoals();
-        thirdGoal.futureGoals();
+        System.out.println("Please use lowercase when entering commands.");
+        System.out.println("Please select the skill you would like to train: ");
+            String initialGoalSelection = input.nextLine();
+            System.out.printf("You Entered "+initialGoalSelection);
 
-        System.out.println("The current goal genres currently consist of: "+Arrays.toString(goalCategories));
+        if(initialGoalSelection.equals("agility")){
+            initialGoalSelection.Agility();
+        }
+
+
     }
 }
