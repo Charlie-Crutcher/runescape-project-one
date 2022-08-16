@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3561b667-285c-4d09-8e6f-4e9616f2944b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/Agility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/Agility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/Runner.java" afterDir="false" />
-    </list>
+    <list default="true" id="3561b667-285c-4d09-8e6f-4e9616f2944b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

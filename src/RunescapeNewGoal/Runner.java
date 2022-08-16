@@ -22,7 +22,7 @@ public class Runner {
         System.out.println(ANSI_YELLOW_TEXT+"Please select the skill you would like to train: "+ANSI_RESET+ANSI_BLACK_BACKGROUND);
 
         String initialGoalSelection = input.nextLine();
-        
+
         if(initialGoalSelection.equals("agility")){
             System.out.println("You have chosen "+ANSI_RED_TEXT+"Agility."+ANSI_RESET+ANSI_BLACK_BACKGROUND);
             agilityMethod();
