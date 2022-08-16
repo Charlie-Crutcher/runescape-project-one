@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3561b667-285c-4d09-8e6f-4e9616f2944b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/Agility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/LevelVars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/NextGoal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/Agility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/Agility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +40,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Charlie/Documents/Projects/Reading List",
+    "last_opened_file_path": "C:/Users/Charlie/Documents/Projects/RunescapeProjectOne",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Agility">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="Agility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RunescapeNewGoal.Agility" />
       <module name="RunescapeProjectOne" />
@@ -90,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Agility" />
         <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Agility" />
         <item itemvalue="Application.GoalCategories" />
       </list>
     </recent_temporary>
