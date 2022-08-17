@@ -16,22 +16,33 @@ public class Runner {
         final String ANSI_YELLOW_TEXT = "\u001B[33m";
         final String ANSI_RED_TEXT = "\u001B[31m";
 
-        System.out.println(ANSI_BLACK_BACKGROUND+"Welcome to Charlie's Runescape Goal Tracker & Calculator.");
+        System.out.println(ANSI_BLACK_BACKGROUND+"Welcome to Charlie's Runescape Levelling Guide.");
         System.out.println("Please use lowercase when entering commands.");
         System.out.println("");
-        System.out.println(ANSI_YELLOW_TEXT+"Please select the skill you would like to train: "+ANSI_RESET+ANSI_BLACK_BACKGROUND);
+        System.out.println(ANSI_YELLOW_TEXT + "Please select the skill you would like to train: " + ANSI_RESET + ANSI_BLACK_BACKGROUND);
 
-        String initialGoalSelection = input.nextLine();
+        for(int i = 0; i < 9999; i++) {
 
-        if(initialGoalSelection.equals("agility")){
-            System.out.println("You have chosen "+ANSI_RED_TEXT+"Agility."+ANSI_RESET+ANSI_BLACK_BACKGROUND);
-            agilityMethod();
+                String initialGoalSelection = input.nextLine();
+                if (initialGoalSelection.equals("agility")) {
+                    System.out.println("You have chosen " + ANSI_RED_TEXT + "Agility." + ANSI_RESET + ANSI_BLACK_BACKGROUND);
+                    agilityMethod();
+                    return;
+
+                } else if (initialGoalSelection.equals("attack")) {
+                    System.out.println("You have chosen Attack.");
+                    //delete when made: attackMethod();
+                }
         }
-
-        else if(initialGoalSelection.equals("attack")){
-            System.out.println("You have chosen Attack.");
-            //delete when made: attackMethod();
+        System.out.println(ANSI_YELLOW_TEXT + "Would you like to select another method? Please type true OR false." + ANSI_RESET + ANSI_BLACK_BACKGROUND);
+        boolean loopRunner = input.nextBoolean();
+        if(loopRunner){
+            System.out.println("Test complete");
+        }
+        else{
+                System.out.println(ANSI_RED_TEXT+"Thank you for using Charlie's Runescape Levelling Guide.");
         }
     }
 }
+
 
