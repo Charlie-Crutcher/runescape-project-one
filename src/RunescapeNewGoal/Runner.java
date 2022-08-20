@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.io.*;
 import java.util.Scanner;
 
-import static RunescapeNewGoal.Agility.*;
+import RunescapeNewGoal.Agility.*;
+import RunescapeNewGoal.RunnerMethod.*;
 
 public class Runner {
     public static void main(String[] args){
@@ -21,27 +22,10 @@ public class Runner {
         System.out.println("");
         System.out.println(ANSI_YELLOW_TEXT + "Please select the skill you would like to train: " + ANSI_RESET + ANSI_BLACK_BACKGROUND);
 
-        for(int i = 0; i < 9999; i++) {
+        RunnerMethod runnerMethod = new RunnerMethod();
 
-                String initialGoalSelection = input.nextLine();
-                if (initialGoalSelection.equals("agility")) {
-                    System.out.println("You have chosen " + ANSI_RED_TEXT + "Agility." + ANSI_RESET + ANSI_BLACK_BACKGROUND);
-                    agilityMethod();
-                    return;
+        runnerMethod.runner();
 
-                } else if (initialGoalSelection.equals("attack")) {
-                    System.out.println("You have chosen Attack.");
-                    //delete when made: attackMethod();
-                }
-        }
-        System.out.println(ANSI_YELLOW_TEXT + "Would you like to select another method? Please type true OR false." + ANSI_RESET + ANSI_BLACK_BACKGROUND);
-        boolean loopRunner = input.nextBoolean();
-        if(loopRunner){
-            System.out.println("Test complete");
-        }
-        else{
-                System.out.println(ANSI_RED_TEXT+"Thank you for using Charlie's Runescape Levelling Guide.");
-        }
     }
 }
 

@@ -3,6 +3,7 @@ import java.awt.*;
 import java.util.Scanner;
 import java.io.*;
 
+//future plan - adding a config file for all of print statements.
 public class Agility {
 
     static Scanner input = new Scanner(System.in);
@@ -10,27 +11,27 @@ public class Agility {
     final String ANSI_BLACK_BACKGROUND = "\u001B[40m";
     final String ANSI_YELLOW_TEXT = "\u001B[33m";
 
-    public static void agilityMethod(){
+    public String agilityMethod(){
         System.out.println("Please enter your Agility level.");
         int agilityXPInput = Integer.parseInt(input.nextLine());
 
         if(agilityXPInput >= 1 && agilityXPInput < 33){
-            agilityMethod1To33();
-            return;
+            return agilityMethod1To33();
         }
         else if(agilityXPInput >= 33 && agilityXPInput <= 39){
-            agilityMethod33To40();
+            return agilityMethod33To40();
         }
         else if(agilityXPInput >= 40 && agilityXPInput <= 59){
-            agilityMethod40To60();
+            return agilityMethod40To60();
         }
         else if(agilityXPInput >= 60 && agilityXPInput <= 69){
-            //agilityMethod60To70();
+            //agilityMethod60To70()
         }
+        return "knob-head";
     }
 
     //Levels 1 to 33 in Agility
-    private static void agilityMethod1To33(){
+    private String agilityMethod1To33(){
         final String ANSI_RESET = "\u001B[0m";
         final String ANSI_RED_TEXT = "\u001B[31m";
         final String ANSI_BLACK_BACKGROUND = "\u001B[40m";
@@ -51,10 +52,11 @@ public class Agility {
         System.out.println("Levels 30 - 40 - Varrock Rooftop Course");
         System.out.println(ANSI_GREEN_TEXT+"After obtaining 40 Agility, move onto Canafis Rooftop Course until 60.");
         System.out.println(ANSI_RESET+ANSI_BLACK_BACKGROUND);
+        return"Select another skill";
     }
 
     //Levels 33 to 40 in Agility
-    private static void agilityMethod33To40(){
+    private String agilityMethod33To40(){
         final String ANSI_RESET = "\u001B[0m";
         final String ANSI_RED_TEXT = "\u001B[31m";
         final String ANSI_BLACK_BACKGROUND = "\u001B[40m";
@@ -69,10 +71,12 @@ public class Agility {
         System.out.println("Barbarian Fishing Provides Minor Agility and Stregth XP along with Fishing.");
         System.out.println(ANSI_GREEN_TEXT+"After Obtaining 52 Agility, You can progress onto the Hallowed Sepulchre.");
         System.out.println(ANSI_RESET+ANSI_BLACK_BACKGROUND);
+        return"";
     }
 
-    private static void agilityMethod40To60(){
+    private String agilityMethod40To60(){
         System.out.println("Train until 60 at the Canafis Rooftops.");
+        return"";
     }
 
 

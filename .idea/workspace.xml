@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3561b667-285c-4d09-8e6f-4e9616f2944b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/RunnerMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/Agility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/Agility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/LevelVars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/LevelVars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,16 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Charlie/Documents/_Coding Projects/RunescapeProjectOne",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Charlie/Documents/_Coding Projects/RunescapeProjectOne&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Runner">
     <configuration name="Agility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RunescapeNewGoal.Agility" />

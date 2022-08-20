@@ -3,6 +3,7 @@ package RunescapeNewGoal;
 
 public class LevelVars {
 
+    String name = "Charlie Crutcher";
     //All XP initially set as 0. User will be prompted to enter current XP on specified skill.
     //XP & Level Variables
     public static int maxXP = 13034431;
