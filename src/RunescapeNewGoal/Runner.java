@@ -11,16 +11,14 @@ public class Runner {
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
-
-        final String ANSI_RESET = "\u001B[0m";
+        final String ANSI_RESET = "\u001B[0m\u001B[40m";
         final String ANSI_BLACK_BACKGROUND = "\u001B[40m";
         final String ANSI_YELLOW_TEXT = "\u001B[33m";
         final String ANSI_RED_TEXT = "\u001B[31m";
+        final String ANSI_GREEN_TEXT = "\u001B[32m";
 
         System.out.println(ANSI_BLACK_BACKGROUND+"Welcome to Charlie's Runescape Levelling Guide.");
-        System.out.println("Please use lowercase when entering commands.");
-        System.out.println("");
-        System.out.println(ANSI_YELLOW_TEXT + "Please select the skill you would like to train: " + ANSI_RESET + ANSI_BLACK_BACKGROUND);
+        System.out.println(ANSI_YELLOW_TEXT + "Please select the skill you would like to train: " + ANSI_RESET);
 
         RunnerMethod runnerMethod = new RunnerMethod();
 
