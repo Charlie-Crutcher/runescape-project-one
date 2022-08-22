@@ -1,5 +1,5 @@
 //ver 0.1
-package RunescapeNewGoal;
+package Skills;
 
 public class LevelVars {
 

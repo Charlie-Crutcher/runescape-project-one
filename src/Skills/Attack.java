@@ -1,6 +1,5 @@
-package RunescapeNewGoal;
+package Skills;
 import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 
 //future plan - adding a config file for all of print statements.
 public class Attack {

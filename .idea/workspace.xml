@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3561b667-285c-4d09-8e6f-4e9616f2944b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/Attack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functionals/GoalTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functionals/InitialSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/Agility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/Agility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/LevelVars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/LevelVars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/RunnerMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunescapeNewGoal/RunnerMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/Agility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Agility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/Attack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Attack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/LevelVars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/LevelVars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunescapeNewGoal/RunnerMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functionals/XPCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +44,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Charlie/Documents/_Coding Projects/RunescapeProjectOne&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Charlie/Documents/_Coding Projects/RunescapeProjectOne",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="RunescapeNewGoal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
-    <configuration name="Agility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RunescapeNewGoal.Agility" />
+  <component name="RunManager" selected="Application.RunescapeNewGoal.Runner">
+    <configuration name="RunescapeNewGoal.GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunescapeNewGoal.GUI" />
       <module name="RunescapeProjectOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RunescapeNewGoal.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoalCategories" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RunescapeNewGoal.GoalCategories" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RunescapeNewGoal.GoalCategories" />
       <module name="RunescapeProjectOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RunescapeNewGoal.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,11 +89,24 @@
       </method>
     </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RunescapeNewGoal.Runner" />
+      <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="RunescapeProjectOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RunescapeNewGoal.*" />
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Skills.Agility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Skills.Agility" />
+      <module name="RunescapeProjectOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,9 +116,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.Agility" />
-        <item itemvalue="Application.GoalCategories" />
+        <item itemvalue="Application.RunescapeNewGoal.Runner" />
+        <item itemvalue="Application.RunescapeNewGoal.GUI" />
+        <item itemvalue="Application.Skills.Agility" />
+        <item itemvalue="Application.RunescapeNewGoal.GoalCategories" />
       </list>
     </recent_temporary>
   </component>
